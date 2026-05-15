@@ -1,0 +1,19 @@
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+/opt/hostedtoolcache/Ruby/3.4.5/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-ve3bzg sitelibdir\=./.gem.20260515-2315-ve3bzg clean
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-ve3bzg sitelibdir\=./.gem.20260515-2315-ve3bzg
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-ve3bzg sitelibdir\=./.gem.20260515-2315-ve3bzg install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20260515-2315-ve3bzg/debug
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-ve3bzg sitelibdir\=./.gem.20260515-2315-ve3bzg clean

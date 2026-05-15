@@ -1,0 +1,19 @@
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/erb-6.0.4/ext/erb/escape
+/opt/hostedtoolcache/Ruby/3.4.5/x64/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/erb-6.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-dbueec sitelibdir\=./.gem.20260515-2315-dbueec clean
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/erb-6.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-dbueec sitelibdir\=./.gem.20260515-2315-dbueec
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/erb-6.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-dbueec sitelibdir\=./.gem.20260515-2315-dbueec install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20260515-2315-dbueec/erb
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/erb-6.0.4/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-dbueec sitelibdir\=./.gem.20260515-2315-dbueec clean
