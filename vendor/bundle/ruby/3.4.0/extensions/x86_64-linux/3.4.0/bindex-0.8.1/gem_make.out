@@ -1,0 +1,18 @@
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/opt/hostedtoolcache/Ruby/3.4.5/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-u8ad1l sitelibdir\=./.gem.20260515-2315-u8ad1l clean
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-u8ad1l sitelibdir\=./.gem.20260515-2315-u8ad1l
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-u8ad1l sitelibdir\=./.gem.20260515-2315-u8ad1l install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20260515-2315-u8ad1l/skiptrace/internal
+
+current directory: /home/runner/work/importmap-update-test/importmap-update-test/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260515-2315-u8ad1l sitelibdir\=./.gem.20260515-2315-u8ad1l clean
