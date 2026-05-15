@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: thoughtbot/importmap-update@c30de7af03f57368df9bc010b402571a1f511e44
+      - uses: thoughtbot/importmap-update@8efe959fdbc74de4270345628938c59f2127d698
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.IMPORTMAP_UPDATE_GH_TOKEN }}
