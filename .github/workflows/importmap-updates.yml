@@ -15,4 +15,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: thoughtbot/importmap-update@v1.0.0-rc1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ env.GITHUB_TOKEN }}
