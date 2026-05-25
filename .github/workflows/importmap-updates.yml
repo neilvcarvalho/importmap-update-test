@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 9 * * 1"   # Mondays 09:00 UTC
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -17,7 +19,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - uses: thoughtbot/importmap-update@45a21e82c7ca104d451d63c8db1c4aecdf2f3bd6
+      - uses: thoughtbot/importmap-update@d8420a0525e5a70663e373b90b1aeb2cf053c830
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           rails-root: ${{ github.workspace }}
