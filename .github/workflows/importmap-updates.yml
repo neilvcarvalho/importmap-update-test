@@ -14,12 +14,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - uses: thoughtbot/importmap-update@d8420a0525e5a70663e373b90b1aeb2cf053c830
+      - uses: thoughtbot/importmap-update@501ac131761150933ad8a0c324947fa47d6a1bf7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          rails-root: ${{ github.workspace }}
