@@ -11,4 +11,4 @@ pin "md5", to: "https://cdn.skypack.dev/md5@2.2.0", preload: true
 pin "local-time" # @3.0.2
 pin "hotkeys-js" # @4.0.3
 pin "tom-select" # @2.3.1
-pin "just-extend" # @5.1.1
+pin "just-extend" # @6.2.0
