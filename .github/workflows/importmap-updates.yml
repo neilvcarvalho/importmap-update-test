@@ -19,6 +19,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - uses: thoughtbot/importmap-update@8710caa7594f0cfb07cb0f8ba84eaae8936dc9b6
+      - uses: thoughtbot/importmap-update@v1.0.0-alpha2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
